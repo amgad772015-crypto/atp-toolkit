@@ -1,0 +1,70 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments and env files
+venv/
+env/
+.venv/
+.env
+.env.*
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Streamlit and runtime caches
+.streamlit/
+cache/
+tmp/
+data/
+models/
+
+# Secrets / keys
+secrets.json
+*.pem
+*.key
+
+# Coverage / reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Mypy / type checkers
+.mypy_cache/
+
+# Compiled C extensions
+*.so
+
+# Node (if any frontend)
+node_modules/
+
+# Docker / local overrides
+docker-compose.override.yml
+.env.local
